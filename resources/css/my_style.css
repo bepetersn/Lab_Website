@@ -28,6 +28,9 @@
 	width: 7%;
 	margin-right: 3%;
 }
+#register-form select.form-control {
+	width: 18%;
+}
 #register-form input[type="submit"] {
 	width: 35%;
 }

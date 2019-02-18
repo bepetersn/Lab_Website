@@ -61,24 +61,26 @@
 				<input type="radio" name="cu-boulder-student" value="2">No</input>
 			</div> <br>
 
-			<div>
+			<div class="form-group row">
 				<label for="student-type">Student Status</label>
-				<input type="radio" name="student-status" value="1">Undergrad</input><br>
-				<select name="student-status">
-					<option value="" disabled selected>Select Student Status</option>
-					<option>Freshmen</option>
-					<option>Sophomore</option>
-					<option>Junior</option>
-					<option>Senior</option>
-				</select><br>
-				
-				<input type="radio" name="student-status" value="2">Grad</input><br>
-				<select name="student-status">
-					<option value="" disabled selected>Select Student Status</option>
-					<option>MA</option>
-					<option>MBA</option>
-					<option>PhD</option>
-				</select><br>
+				<div class="col">
+					<input type="radio" name="student-status" value="1">Undergrad</input><br>
+					<select class="form-control" name="student-status">
+						<option value="" disabled selected>Select Student Status</option>
+						<option>Freshmen</option>
+						<option>Sophomore</option>
+						<option>Junior</option>
+						<option>Senior</option>
+					</select><br>
+					
+					<input type="radio" name="student-status" value="2">Grad</input><br>
+					<select class="form-control" name="student-status">
+						<option value="" disabled selected>Select Student Status</option>
+						<option>MA</option>
+						<option>MBA</option>
+						<option>PhD</option>
+					</select><br>
+				</div>
 			</div>
 
 			<input type="submit" value="submit" class="btn btn-primary btn-block">
