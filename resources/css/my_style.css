@@ -1,0 +1,14 @@
+/* Add any css you want to use for you website here */
+
+.main {
+	text-align: center;
+}
+.additional p {
+	display: inline;
+}
+#wins-losses {
+	text-align: center;
+}
+#team-stats {
+	margin-bottom: 50px;
+}
