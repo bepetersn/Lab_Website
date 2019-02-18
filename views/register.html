@@ -17,7 +17,7 @@
     <br>
 	<br>
 	<div class="container">
-		<form action="home.html">
+		<form id="register-form" action="home.html">
 			<!--
 				Todo: Create a form with the following fields:
 					1. Name Text Field
@@ -33,6 +33,54 @@
 					11. Submit Button (links to home page)
 
 			-->
+			<label for="fn">Full Name</label>
+			<input type="text" id="fn" name="full_name" 
+				   placeholder="Enter Name"> <br>
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" 
+				   placeholder="Enter email"> <br>
+
+			<label for="pw">Full Name</label>
+			<input type="password" id="pw" name="password" 
+				   placeholder="Password"> <br>
+
+			<label for="c_pw">Confirm Password</label>
+			<input type="password" id="c_pw" name="password" 
+				   placeholder="Confirm Password"> <br>
+
+			<div>
+				<label for="cu-boulder-alumni">CU Boulder Alumni</label>
+				<input type="radio" name="cu-boulder-alumni" value="1">Yes</input>
+				<input type="radio" name="cu-boulder-alumni" value="2">No</input>
+			</div> <br>
+
+			<div>
+				<label for="cu-boulder-student">CU Boulder Student</label>
+				<input type="radio" name="cu-boulder-student" value="1">Yes</input>
+				<input type="radio" name="cu-boulder-student" value="2">No</input>
+			</div> <br>
+
+			<div>
+				<label for="student-type">Student Status</label>
+				<input type="radio" name="student-status" value="1">Undergrad</input><br>
+				<select name="student-status">
+					<option value="" disabled selected>Select Student Status</option>
+					<option>Freshmen</option>
+					<option>Sophomore</option>
+					<option>Junior</option>
+					<option>Senior</option>
+				</select><br>
+				
+				<input type="radio" name="student-status" value="2">Grad</input><br>
+				<select name="student-status">
+					<option value="" disabled selected>Select Student Status</option>
+					<option>MA</option>
+					<option>MBA</option>
+					<option>PhD</option>
+				</select><br>
+			</div>
+
 			<input type="submit" value="submit" class="btn btn-primary btn-block">
 		</form>
 	</div>

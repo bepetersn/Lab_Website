@@ -1,14 +1,33 @@
-/* Add any css you want to use for you website here */
 
+/* Main page */
 .main {
 	text-align: center;
 }
 .additional p {
 	display: inline;
 }
+
+
+/* Team Stats page */
 #wins-losses {
 	text-align: center;
 }
 #team-stats {
 	margin-bottom: 50px;
+}
+
+/* Player stats page */
+.card {
+	width: 200px;
+}
+
+
+/* Register */
+
+#register-form label {
+	width: 7%;
+	margin-right: 3%;
+}
+#register-form input[type="submit"] {
+	width: 35%;
 }
